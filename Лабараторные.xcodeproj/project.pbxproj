@@ -6,10 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		B2AE0B071C6C7A89003502ED /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B2AE0B061C6C7A89003502ED /* main.c */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		B2AE0B011C6C7A89003502ED /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -24,7 +20,16 @@
 
 /* Begin PBXFileReference section */
 		B2AE0B031C6C7A89003502ED /* Лабараторные */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Лабараторные"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2AE0B061C6C7A89003502ED /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		B2AE0B1E1C6C7B4F003502ED /* Задание 6.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Задание 6.c"; sourceTree = "<group>"; };
+		B2AE0B1F1C6C7B8A003502ED /* Задание 1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Задание 1.c"; sourceTree = "<group>"; };
+		B2AE0B201C6C7B99003502ED /* Задание 2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Задание 2.c"; sourceTree = "<group>"; };
+		B2AE0B211C6C7BAD003502ED /* Задание 3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Задание 3.c"; sourceTree = "<group>"; };
+		B2AE0B221C6C7BBB003502ED /* Задание 4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Задание 4.c"; sourceTree = "<group>"; };
+		B2AE0B231C6C7BD2003502ED /* Задание 5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Задание 5.c"; sourceTree = "<group>"; };
+		B2AE0B241C6C7BE3003502ED /* Задание 7.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Задание 7.c"; sourceTree = "<group>"; };
+		B2AE0B251C6C7BF0003502ED /* Задание 8.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Задание 8.c"; sourceTree = "<group>"; };
+		B2AE0B261C6C7C01003502ED /* Задание 9.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Задание 9.c"; sourceTree = "<group>"; };
+		B2AE0B271C6C7C0F003502ED /* Задание 10.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Задание 10.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +46,7 @@
 		B2AE0AFA1C6C7A89003502ED = {
 			isa = PBXGroup;
 			children = (
-				B2AE0B051C6C7A89003502ED /* Лабараторные */,
+				B2AE0B051C6C7A89003502ED /* Лабараторная 1 */,
 				B2AE0B041C6C7A89003502ED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +59,38 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B2AE0B051C6C7A89003502ED /* Лабараторные */ = {
+		B2AE0B051C6C7A89003502ED /* Лабараторная 1 */ = {
 			isa = PBXGroup;
 			children = (
-				B2AE0B061C6C7A89003502ED /* main.c */,
+				B2AE0B0E1C6C7ABF003502ED /* C++ */,
+				B2AE0B0D1C6C7AAE003502ED /* C */,
 			);
+			name = "Лабараторная 1";
 			path = "Лабараторные";
+			sourceTree = "<group>";
+		};
+		B2AE0B0D1C6C7AAE003502ED /* C */ = {
+			isa = PBXGroup;
+			children = (
+				B2AE0B1F1C6C7B8A003502ED /* Задание 1.c */,
+				B2AE0B201C6C7B99003502ED /* Задание 2.c */,
+				B2AE0B211C6C7BAD003502ED /* Задание 3.c */,
+				B2AE0B221C6C7BBB003502ED /* Задание 4.c */,
+				B2AE0B231C6C7BD2003502ED /* Задание 5.c */,
+				B2AE0B1E1C6C7B4F003502ED /* Задание 6.c */,
+				B2AE0B241C6C7BE3003502ED /* Задание 7.c */,
+				B2AE0B251C6C7BF0003502ED /* Задание 8.c */,
+				B2AE0B261C6C7C01003502ED /* Задание 9.c */,
+				B2AE0B271C6C7C0F003502ED /* Задание 10.c */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		B2AE0B0E1C6C7ABF003502ED /* C++ */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "C++";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +149,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2AE0B071C6C7A89003502ED /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
